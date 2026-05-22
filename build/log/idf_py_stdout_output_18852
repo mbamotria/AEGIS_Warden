@@ -1,0 +1,59 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Processing 8 dependencies:
+NOTICE: [1/8] espressif/cjson (1.7.19~2)
+NOTICE: [2/8] espressif/dl_fft (0.4.0)
+NOTICE: [3/8] espressif/esp-dsp (1.8.0)
+NOTICE: [4/8] espressif/esp-sr (2.4.4)
+NOTICE: [5/8] espressif/esp32-camera (2ac69a6f1749694804f5196e63fa1f79800b74bf)
+NOTICE: [6/8] espressif/esp_codec_dev (1.1.0)
+NOTICE: [7/8] espressif/esp_jpeg (1.3.1)
+NOTICE: [8/8] idf (5.1.2)
+-- CONFIG_ESP32P4_SELECTS_REV_LESS_V3 is 
+-- IDF_VERSION_MAJOR is 5
+-- IDF_VERSION_MINOR is 1
+-- IDF_VERSION_PATCH is 2
+-- TARGET_LIB_PATH is set to: esp32s3
+-- Project sdkconfig file /home/motria/esp/aegis_warden/sdkconfig
+Loading defaults file /home/motria/esp/aegis_warden/sdkconfig.defaults...
+Loading defaults file /home/motria/esp/aegis_warden/sdkconfig.defaults.esp32s3...
+-- App "aegis_warden" version: 1
+-- Adding linker script /home/motria/esp/aegis_warden/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/motria/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- CONFIG_ESP32P4_SELECTS_REV_LESS_V3 is 
+-- IDF_VERSION_MAJOR is 5
+-- IDF_VERSION_MINOR is 1
+-- IDF_VERSION_PATCH is 2
+-- TARGET_LIB_PATH is set to: esp32s3
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__cjson espressif__dl_fft espressif__esp-dsp espressif__esp-sr espressif__esp32-camera espressif__esp_codec_dev espressif__esp_jpeg esptool_py fatfs freertos hal hardware_driver heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perf_tester perfmon player protobuf-c protocomm pthread sdmmc soc spi_flash spiffs sr_ringbuf tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/motria/esp/esp-idf/components/app_trace /home/motria/esp/esp-idf/components/app_update /home/motria/esp/esp-idf/components/bootloader /home/motria/esp/esp-idf/components/bootloader_support /home/motria/esp/esp-idf/components/bt /home/motria/esp/esp-idf/components/cmock /home/motria/esp/esp-idf/components/console /home/motria/esp/esp-idf/components/cxx /home/motria/esp/esp-idf/components/driver /home/motria/esp/esp-idf/components/efuse /home/motria/esp/esp-idf/components/esp-tls /home/motria/esp/esp-idf/components/esp_adc /home/motria/esp/esp-idf/components/esp_app_format /home/motria/esp/esp-idf/components/esp_coex /home/motria/esp/esp-idf/components/esp_common /home/motria/esp/esp-idf/components/esp_eth /home/motria/esp/esp-idf/components/esp_event /home/motria/esp/esp-idf/components/esp_gdbstub /home/motria/esp/esp-idf/components/esp_hid /home/motria/esp/esp-idf/components/esp_http_client /home/motria/esp/esp-idf/components/esp_http_server /home/motria/esp/esp-idf/components/esp_https_ota /home/motria/esp/esp-idf/components/esp_https_server /home/motria/esp/esp-idf/components/esp_hw_support /home/motria/esp/esp-idf/components/esp_lcd /home/motria/esp/esp-idf/components/esp_local_ctrl /home/motria/esp/esp-idf/components/esp_mm /home/motria/esp/esp-idf/components/esp_netif /home/motria/esp/esp-idf/components/esp_netif_stack /home/motria/esp/esp-idf/components/esp_partition /home/motria/esp/esp-idf/components/esp_phy /home/motria/esp/esp-idf/components/esp_pm /home/motria/esp/esp-idf/components/esp_psram /home/motria/esp/esp-idf/components/esp_ringbuf /home/motria/esp/esp-idf/components/esp_rom /home/motria/esp/esp-idf/components/esp_system /home/motria/esp/esp-idf/components/esp_timer /home/motria/esp/esp-idf/components/esp_wifi /home/motria/esp/esp-idf/components/espcoredump /home/motria/esp/aegis_warden/managed_components/espressif__cjson /home/motria/esp/aegis_warden/managed_components/espressif__dl_fft /home/motria/esp/aegis_warden/managed_components/espressif__esp-dsp /home/motria/esp/aegis_warden/managed_components/espressif__esp-sr /home/motria/esp/aegis_warden/managed_components/espressif__esp32-camera /home/motria/esp/aegis_warden/managed_components/espressif__esp_codec_dev /home/motria/esp/aegis_warden/managed_components/espressif__esp_jpeg /home/motria/esp/esp-idf/components/esptool_py /home/motria/esp/esp-idf/components/fatfs /home/motria/esp/esp-idf/components/freertos /home/motria/esp/esp-idf/components/hal /home/motria/esp/esp-skainet/components/hardware_driver /home/motria/esp/esp-idf/components/heap /home/motria/esp/esp-idf/components/http_parser /home/motria/esp/esp-idf/components/idf_test /home/motria/esp/esp-idf/components/ieee802154 /home/motria/esp/esp-idf/components/json /home/motria/esp/esp-idf/components/log /home/motria/esp/esp-idf/components/lwip /home/motria/esp/aegis_warden/main /home/motria/esp/esp-idf/components/mbedtls /home/motria/esp/esp-idf/components/mqtt /home/motria/esp/esp-idf/components/newlib /home/motria/esp/esp-idf/components/nvs_flash /home/motria/esp/esp-idf/components/openthread /home/motria/esp/esp-idf/components/partition_table /home/motria/esp/esp-skainet/components/perf_tester /home/motria/esp/esp-idf/components/perfmon /home/motria/esp/esp-skainet/components/player /home/motria/esp/esp-idf/components/protobuf-c /home/motria/esp/esp-idf/components/protocomm /home/motria/esp/esp-idf/components/pthread /home/motria/esp/esp-idf/components/sdmmc /home/motria/esp/esp-idf/components/soc /home/motria/esp/esp-idf/components/spi_flash /home/motria/esp/esp-idf/components/spiffs /home/motria/esp/esp-skainet/components/sr_ringbuf /home/motria/esp/esp-idf/components/tcp_transport /home/motria/esp/esp-idf/components/touch_element /home/motria/esp/esp-idf/components/ulp /home/motria/esp/esp-idf/components/unity /home/motria/esp/esp-idf/components/usb /home/motria/esp/esp-idf/components/vfs /home/motria/esp/esp-idf/components/wear_levelling /home/motria/esp/esp-idf/components/wifi_provisioning /home/motria/esp/esp-idf/components/wpa_supplicant /home/motria/esp/esp-idf/components/xtensa
+-- Configuring done (7.9s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/motria/esp/aegis_warden/build
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/motria/esp/aegis_warden/build/bootloader/esp-idf/esptool_py && /home/motria/.espressif/python_env/idf5.1_py3.14_env/bin/python /home/motria/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/motria/esp/aegis_warden/build/bootloader/bootloader.bin
+Bootloader binary size 0x5770 bytes. 0x2890 bytes (32%) free.
+[2/11] No install step for 'bootloader'
+[3/11] Completed 'bootloader'
+[4/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/11] Linking C static library esp-idf/main/libmain.a
+[6/11] Generating ld/sections.ld
+[7/11] Building C object CMakeFiles/aegis_warden.elf.dir/project_elf_src_esp32s3.c.obj
+[8/11] Linking CXX executable aegis_warden.elf
+[9/11] Generating binary image from built executable
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/motria/esp/aegis_warden/build/aegis_warden.bin
+[10/11] cd /home/motria/esp/aegis_warden/build/esp-idf/esptool_py && /home/motria/.espressif/python_env/idf5.1_py3.14_env/bin/python /home/motria/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/motria/esp/aegis_warden/build/partition_table/partition-table.bin /home/motria/esp/aegis_warden/build/aegis_warden.bin
+aegis_warden.bin binary size 0x142c80 bytes. Smallest app partition is 0x271000 bytes. 0x12e380 bytes (48%) free.
